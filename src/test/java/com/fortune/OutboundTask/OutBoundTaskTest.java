@@ -41,6 +41,7 @@ public class OutBoundTaskTest extends BaseClass {
 		dialerPage.agentLoginController();
 	   // go back on main window
 		mainWindowHandle();
+		
 	}
 
 	@BeforeClass

@@ -22,6 +22,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -54,22 +55,29 @@ public class BaseClass {
     }
 	
    
-	public void launchBrowser(String browser)
-	{         
-	   if (browser.equalsIgnoreCase("chrome")) {
-		driver = new ChromeDriver();
-		    
+	public void launchBrowser(String browser) {
+		if (browser.equalsIgnoreCase("chrome")) {
+			// Create ChromeOptions object
+			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.addExtensions(new File("D:\\Pratiksha\\Downloads\\Cross-Domain-CORS-Chrome-Web-Store.crx"));
+			chromeOptions.setAcceptInsecureCerts(true);
+			driver = new ChromeDriver(chromeOptions);
+			
 		} else if (browser.equalsIgnoreCase("edge")) {
-		    driver = new EdgeDriver();
+			EdgeOptions edgeOptions = new EdgeOptions();
+			edgeOptions.addExtensions(new File("D:\\Pratiksha\\Downloads\\Cross-Domain-CORS-Chrome-Web-Store.crx"));
+			edgeOptions.setAcceptInsecureCerts(true);
+			driver = new EdgeDriver(edgeOptions);
+			
 		} else if (browser.equalsIgnoreCase("firefox")) {
-		    driver = new FirefoxDriver();
-		   
+			driver = new FirefoxDriver();
+
 		} else {
-		    driver = new ChromeDriver();
-		    
+			driver = new ChromeDriver();
+
 		}
 		driver.manage().window().maximize();
-	 }
+	}
 	
 	public void mainWindowHandle() {
 		Set<String> windowsID = driver.getWindowHandles();
