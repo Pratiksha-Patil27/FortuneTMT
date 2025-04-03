@@ -1,0 +1,10 @@
+com\fortune\pageobjects\OutBoundTaskPage.class
+com\fortune\utilities\ExtentReporterNG.class
+com\fortune\pageobjects\BasePage.class
+com\fortune\utilities\MyXLSReader$1.class
+com\fortune\pageobjects\ReactLoginPage.class
+com\fortune\utilities\ExcelDataUtil.class
+com\fortune\pageobjects\OutboundTelecallingPage.class
+com\fortune\utilities\MyXLSReader.class
+com\fortune\pageobjects\DialerLoginPage.class
+com\fortune\pageobjects\DashboardPage.class
