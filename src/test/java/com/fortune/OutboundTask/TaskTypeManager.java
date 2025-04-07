@@ -94,6 +94,7 @@ public class TaskTypeManager extends BaseClass {
 						telePage = outboundTaskPage.clickOnDialNextButton();
 				}catch (Exception e) {
 					e.printStackTrace();
+					break;
 				}
 			}
 			if (status) {

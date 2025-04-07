@@ -495,7 +495,7 @@ public class WelcomeCallTask extends BaseClass{
 			if (!TestCaseTracker.isExecuted("welCallVerifyCloseTaskBySubmitBreakBtn")) {
 				welCallVerifyCloseTaskBySubmitBreakBtn(manager);
 			}
-/*
+
 			if (!TestCaseTracker.isExecuted("welCallVerifyRescheduleNotInterestedBySubmitBreakBtn")) {
 				welCallVerifyRescheduleNotInterestedBySubmitBreakBtn(manager);
 			}
@@ -531,7 +531,7 @@ public class WelcomeCallTask extends BaseClass{
 			if (!TestCaseTracker.isExecuted("welCallVerifyRescheduleCallBackLaterBySubmitBtn")) {
 				welCallVerifyRescheduleCallBackLaterBySubmitBtn(manager);
 			}
-*/
+
 			if (!TestCaseTracker.isExecuted("welCallVerifyRescheduleWrongNoBySubmitBreakBtn")) {
 				welCallVerifyRescheduleWrongNoBySubmitBreakBtn(manager);
 			}
@@ -555,8 +555,7 @@ public class WelcomeCallTask extends BaseClass{
 			if (!TestCaseTracker.isExecuted("outboundTaskPageVerifyFilterCrossIconClickable")) {
 				outboundTaskPageVerifyFilterCrossIconClickable(manager);
 			}
-			
-			
+				
 			if (!TestCaseTracker.isExecuted("welCallVerifyRescheduleWrongNoBySubmitBtn")) {
 				welCallVerifyRescheduleWrongNoBySubmitBtn(manager);
 			}

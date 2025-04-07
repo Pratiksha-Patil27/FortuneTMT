@@ -77,6 +77,7 @@ public class ClaimVerificationTask extends BaseClass{
 
 			try
 			{
+				
 			if (!TestCaseTracker.isExecuted("claimTaskVerifyCloseTaskBtnClickable")) {
 
 				claimTaskVerifyCloseTaskBtnClickable(manager);

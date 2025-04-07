@@ -77,7 +77,7 @@ public class IncomingMissCallTask extends BaseClass{
 
 			try
 			{
-				/*
+				
 				
 			if (!TestCaseTracker.isExecuted("missCallVerifyCloseTaskBtnClickable")) {
 
@@ -459,7 +459,7 @@ public class IncomingMissCallTask extends BaseClass{
 			if (!TestCaseTracker.isExecuted("missCallVerifyMilestoneCatalogMenuCrossIconClickable")) {
 				missCallVerifyMilestoneCatalogMenuCrossIconClickable(manager);
 			}
-*/
+
 			if (!TestCaseTracker.isExecuted("missCallVerifyRedial")) {
 				missCallVerifyRedial(manager);
 			}
@@ -471,7 +471,7 @@ public class IncomingMissCallTask extends BaseClass{
 			if (!TestCaseTracker.isExecuted("missCallVerifyBackTaskStatus")) {
 				missCallVerifyBackTaskStatus(manager);
 			}
-/*
+
 			if (!TestCaseTracker.isExecuted("missCallVerifyBackButtonDialNext")) {
 				missCallVerifyBackButtonDialNext(manager);
 			}
@@ -633,7 +633,7 @@ public class IncomingMissCallTask extends BaseClass{
 				missCallVerifyRescheduleWrongNoBySubmitBtn(manager);
 			}
 			
-*/
+
 		}catch (Exception e) {
 	        System.err.println("Exception during test execution: " + e.getMessage());
 		}
