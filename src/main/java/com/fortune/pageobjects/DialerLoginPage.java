@@ -56,6 +56,7 @@ public class DialerLoginPage extends BasePage{
 			Thread.sleep(3000);
 			WebElement compaignDropDownElement = driver.findElement(By.xpath("//*[@id=\"VD_campaign\"]"));
 			Select select = new Select(compaignDropDownElement);
+			waitVisibilityOf(compaignDropDownElement);
 			select.selectByIndex(1);
 			Thread.sleep(3000);
 			driver.findElement(By.id("login_sub")).click();
@@ -67,17 +68,20 @@ public class DialerLoginPage extends BasePage{
 		}
 	}
 
-	public void agentLoginController() {
+	public void agentLoginController() throws InterruptedException {
+		Thread.sleep(5000);
+		
 		WebElement anotherliveAgentLogin = driver
 				.findElement(By.xpath("//span[@id=\"DeactivateDOlDSessioNSpan\"]/table/tbody/tr/td/font"));
-
+		
 		WebElement outboundActivationElement = driver
 				.findElement(By.xpath("//font[text()=\"CLOSER INBOUND GROUP SELECTION\"]")); // get element to verify
 																								// successfuly navigate
-																								// to agent screen or
+																						// to agent screen or
 																								// not
 
 		if (anotherliveAgentLogin.isDisplayed()) {
+			waitVisibilityOf(anotherliveAgentLogin);
 			System.out.println(anotherliveAgentLogin.getText());
 			driver.findElement(By.xpath("//a[text()=\"OK\"]")).click(); // click on "ok" button for navigate to dialer
 																		// screen
@@ -91,6 +95,7 @@ public class DialerLoginPage extends BasePage{
 		}
 
 		else if (outboundActivationElement.isDisplayed()) {
+			waitVisibilityOf(outboundActivationElement);
 			System.out.println(outboundActivationElement.getText());
 
 			driver.findElement(By.xpath("//*[@id=\"CloserSelectBox\"]/table/tbody/tr/td/font[2]/a[2]")).click(); // click
