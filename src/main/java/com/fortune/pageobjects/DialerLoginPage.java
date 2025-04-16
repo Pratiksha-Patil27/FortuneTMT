@@ -42,6 +42,7 @@ public class DialerLoginPage extends BasePage{
 
 		try {
 			String expectedResult = "Campaign Login";
+			waitVisibilityOf(driver.findElement(By.className("sh_text_white")));
 			String actualresult = driver.findElement(By.className("sh_text_white")).getText();
 			System.out.println(actualresult);
 			Assert.assertEquals(actualresult, expectedResult, "Not Land on Campaign Login page...!");
