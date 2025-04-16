@@ -135,9 +135,9 @@ from disconnected: not connected to DevTools
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [11927976ba404efd8c9eb8860c10c632, findElement {using=id, value=login_sub}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50739/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 11927976ba404efd8c9eb8860c10c632
+Command: [3f8a0d2c88d9145e076cc0f7364ac193, findElement {using=xpath, value=//div[@id=&quot;sidebar-menu&quot;]/ul/li/a/i}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59701/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f8a0d2c88d9145e076cc0f7364ac193
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -149,9 +149,20 @@ Session ID: 11927976ba404efd8c9eb8860c10c632
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.fortune.pageobjects.DialerLoginPage.campaignLogin(DialerLoginPage.java:63)
-	at com.fortune.OutboundTask.OutBoundTaskTest.Login(OutBoundTaskTest.java:40)
-... Removed 24 stack frames
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.fortune.pageobjects.BasePage.click(BasePage.java:29)
+	at com.fortune.pageobjects.DashboardPage.clickOnCustomerEngagementIcon(DashboardPage.java:43)
+	at com.fortune.OutboundTask.OutBoundTaskTest.openOutBoundTaskMenu(OutBoundTaskTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -250,11 +261,15 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite before">
+                <span class="method-name">Login</span>
+                <span class="method-start">478 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Login</span>
-                <span class="method-start">449 ms</span>
-              </div> <!-- configuration-suite before -->
+                <span class="method-name">openOutBoundTaskMenu</span>
+                <span class="method-start">50936 ms</span>
+              </div> <!-- configuration-class before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

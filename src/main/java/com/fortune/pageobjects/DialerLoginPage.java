@@ -48,9 +48,9 @@ public class DialerLoginPage extends BasePage{
 			System.out.println(actualresult);
 			Assert.assertEquals(actualresult, expectedResult, "Not Land on Campaign Login page...!");
 			System.out.println("Successfully Landing On Compaign Login Page");
-			Thread.sleep(5000);
+			Thread.sleep(2000);
 			driver.findElement(By.name("VD_login")).sendKeys(userLogin);
-			Thread.sleep(5000);
+			Thread.sleep(2000);
 			driver.findElement(By.name("VD_pass")).sendKeys(userPass);
 			Thread.sleep(3000);
 			driver.findElement(By.id("VD_campaign")).click();
