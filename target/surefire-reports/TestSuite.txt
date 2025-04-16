@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 20.463 s <<< FAILURE! - in TestSuite
-Login(com.fortune.OutboundTask.OutBoundTaskTest)  Time elapsed: 20.175 s  <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 29.231 s <<< FAILURE! - in TestSuite
+Login(com.fortune.OutboundTask.OutBoundTaskTest)  Time elapsed: 28.606 s  <<< FAILURE!
 org.openqa.selenium.NoSuchSessionException: 
 invalid session id: session deleted as the browser has closed the connection
 from disconnected: not connected to DevTools
@@ -10,8 +10,8 @@ from disconnected: not connected to DevTools
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c8b15f1e17e08cb133233a5a4a86fa48, findElement {value=VD_campaign, using=id}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50286}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50286/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c8b15f1e17e08cb133233a5a4a86fa48
+Command: [11927976ba404efd8c9eb8860c10c632, findElement {using=id, value=login_sub}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50739/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11927976ba404efd8c9eb8860c10c632
 	at com.fortune.OutboundTask.OutBoundTaskTest.Login(OutBoundTaskTest.java:40)
 
