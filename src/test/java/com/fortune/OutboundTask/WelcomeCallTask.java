@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.fortune.base.BaseClass;
+import com.fortune.base.OutboundTaskBaseClass;
 import com.fortune.pageobjects.DialerLoginPage;
 import com.fortune.pageobjects.OutBoundTaskPage;
 import com.fortune.pageobjects.OutboundTelecallingPage;
@@ -21,7 +21,7 @@ import com.fortune.retryanalyzer.Retry;
 
 
 
-public class WelcomeCallTask extends BaseClass{
+public class WelcomeCallTask extends OutboundTaskBaseClass{
 	 
 	
 	private DialerLoginPage dialerPage;
@@ -557,6 +557,9 @@ public class WelcomeCallTask extends BaseClass{
 			}
 				
 			if (!TestCaseTracker.isExecuted("welCallVerifyRescheduleWrongNoBySubmitBtn")) {
+				welCallVerifyRescheduleWrongNoBySubmitBtn(manager);
+			}else
+			{
 				welCallVerifyRescheduleWrongNoBySubmitBtn(manager);
 			}
 
@@ -3329,7 +3332,7 @@ public class WelcomeCallTask extends BaseClass{
 					softAssert.assertAll();
 				});
 
-				// TestCaseTracker.markAsExecuted("welCallVerifyRescheduleWrongNoBySubmitBtn");
+				 TestCaseTracker.markAsExecuted("welCallVerifyRescheduleWrongNoBySubmitBtn");
 			} else {
 				System.out.println("Task type is not Welcome Call.");
 				manager.executeTask();

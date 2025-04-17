@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.fortune.base.BaseClass;
+import com.fortune.base.OutboundTaskBaseClass;
 import com.fortune.pageobjects.DialerLoginPage;
 import com.fortune.pageobjects.OutBoundTaskPage;
 import com.fortune.pageobjects.OutboundTelecallingPage;
@@ -23,7 +23,7 @@ import com.fortune.retryanalyzer.Retry;
 
 
 
-public class ClaimVerificationTask extends BaseClass{
+public class ClaimVerificationTask extends OutboundTaskBaseClass{
 	 
 	
 	private DialerLoginPage dialerPage;
@@ -634,6 +634,9 @@ public class ClaimVerificationTask extends BaseClass{
 			}
 
 			if (!TestCaseTracker.isExecuted("claimTaskVerifyRescheduleWrongNoBySubmitBtn")) {
+				claimTaskVerifyRescheduleWrongNoBySubmitBtn(manager);
+			}else
+			{
 				claimTaskVerifyRescheduleWrongNoBySubmitBtn(manager);
 			}
 		
@@ -3789,7 +3792,7 @@ public void claimTaskVerifyClaimByEqualQtyApproveStatus(TaskTypeManager manager)
 					softAssert.assertAll();
 				});
 
-				// TestCaseTracker.markAsExecuted("claimTaskVerifyRescheduleWrongNoBySubmitBtn");
+				 TestCaseTracker.markAsExecuted("claimTaskVerifyRescheduleWrongNoBySubmitBtn");
 			} else {
 				System.out.println("Task type is not Influencer Claim Verification.");
 				manager.executeTask();

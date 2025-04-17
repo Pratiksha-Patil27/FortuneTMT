@@ -93,7 +93,7 @@ public class LoginTest extends BaseClass {
   @DataProvider(name = "validloginData")
   public Object[][] validData() {
  	return new Object[][]{
-	  {"6001","tELE@60011"}
+	  {"6001","tELE@6001"}
   };
   }
   

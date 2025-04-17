@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.fortune.base.BaseClass;
+import com.fortune.base.OutboundTaskBaseClass;
 import com.fortune.pageobjects.DialerLoginPage;
 import com.fortune.pageobjects.OutBoundTaskPage;
 import com.fortune.pageobjects.OutboundTelecallingPage;
@@ -23,7 +23,7 @@ import com.fortune.retryanalyzer.Retry;
 
 
 
-public class IncomingMissCallTask extends BaseClass{
+public class IncomingMissCallTask extends OutboundTaskBaseClass{
 	 
 	
 	private DialerLoginPage dialerPage;
@@ -630,6 +630,9 @@ public class IncomingMissCallTask extends BaseClass{
 			}
 
 			if (!TestCaseTracker.isExecuted("missCallVerifyRescheduleWrongNoBySubmitBtn")) {
+				missCallVerifyRescheduleWrongNoBySubmitBtn(manager);
+			}else
+			{
 				missCallVerifyRescheduleWrongNoBySubmitBtn(manager);
 			}
 			
@@ -3776,7 +3779,7 @@ public class IncomingMissCallTask extends BaseClass{
 					softAssert.assertAll();
 				});
 
-				// TestCaseTracker.markAsExecuted("missCallVerifyRescheduleWrongNoBySubmitBtn");
+				 TestCaseTracker.markAsExecuted("missCallVerifyRescheduleWrongNoBySubmitBtn");
 			} else {
 				System.out.println("Task type is not Incoming Miss Call.");
 				manager.executeTask();

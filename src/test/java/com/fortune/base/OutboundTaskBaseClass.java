@@ -35,7 +35,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fortune.OutboundTask.TaskTypeManager;
 
-public class BaseClass {
+public class OutboundTaskBaseClass {
 	protected ExtentReports extent;
     protected ExtentTest test;
     public WebDriver driver;

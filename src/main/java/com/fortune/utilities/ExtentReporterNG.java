@@ -8,7 +8,7 @@ public class ExtentReporterNG {
 	public static ExtentReports getExtentReport()
 
 	{
-				String path=System.getProperty("user.dir")+"\\ExtentReports\\eReport.html";
+				String path=System.getProperty("user.dir")+"\\ExtentReports\\FortuneReport.html";
 				ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 				//Give Title name
 				reporter.config().setDocumentTitle("FortuneTMT");
@@ -20,7 +20,7 @@ public class ExtentReporterNG {
 				extent.attachReporter(reporter);
 				
 				extent.setSystemInfo("Company Name", "Prowess Selling Skills Pvt.Ltd");
-				extent.setSystemInfo("Project Name", "Web Automation -Module- Influencer Telebeat");
+				extent.setSystemInfo("Project Name", "FortuneTMT Project");
 				extent.setSystemInfo("Automation Tester Name", "Pratiksha Patil");
 				
 				

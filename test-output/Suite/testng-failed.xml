@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Outbound Task(failed)">
+  <listeners>
+    <listener class-name="com.fortune.listeners.MyListerners"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
     <classes>
-      <class name="com.fortune.OutboundTask.OutBoundTaskTest">
+      <class name="com.fortune.testcases.LoginTest">
         <methods>
-          <include name="startTestMethod"/>
-          <include name="endTestMethod"/>
-          <include name="Login"/>
-          <include name="openOutBoundTaskMenu"/>
-          <include name="generateReport"/>
-          <include name="executeTelecallingTestCases"/>
-          <include name="tearDown"/>
+          <include name="loginByValidCredentials" invocation-numbers="0"/>
+          <include name="launch"/>
+          <include name="closed"/>
         </methods>
-      </class> <!-- com.fortune.OutboundTask.OutBoundTaskTest -->
+      </class> <!-- com.fortune.testcases.LoginTest -->
     </classes>
-  </test> <!-- Outbound Task(failed) -->
+  </test> <!-- LoginTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

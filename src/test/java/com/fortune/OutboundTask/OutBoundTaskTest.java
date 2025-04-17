@@ -11,13 +11,13 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
-import com.fortune.base.BaseClass;
+import com.fortune.base.OutboundTaskBaseClass;
 import com.fortune.pageobjects.DashboardPage;
 import com.fortune.pageobjects.DialerLoginPage;
 import com.fortune.pageobjects.OutBoundTaskPage;
 import com.fortune.pageobjects.ReactLoginPage;
 
-public class OutBoundTaskTest extends BaseClass {
+public class OutBoundTaskTest extends OutboundTaskBaseClass {
 
 	private DialerLoginPage dialerPage;
 	private ReactLoginPage loginPage;

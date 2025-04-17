@@ -80,7 +80,7 @@ public class MyListerners extends BaseClass implements ITestListener {
 		extent.flush();
 		
 		//After closed browser directly open report
-		File eReportFile=new File(System.getProperty("user.dir")+"\\ExtentReports\\eReport.html");
+		File eReportFile=new File(System.getProperty("user.dir")+"\\ExtentReports\\FortuneReport.html");
 		try {
 			Desktop.getDesktop().browse(eReportFile.toURI());
 		} catch (IOException e) {

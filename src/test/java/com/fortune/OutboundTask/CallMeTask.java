@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.fortune.base.BaseClass;
+import com.fortune.base.OutboundTaskBaseClass;
 import com.fortune.pageobjects.DialerLoginPage;
 import com.fortune.pageobjects.OutBoundTaskPage;
 import com.fortune.pageobjects.OutboundTelecallingPage;
@@ -26,7 +26,8 @@ import com.fortune.retryanalyzer.Retry;
 
 
 
-public class CallMeTask extends BaseClass{
+
+public class CallMeTask extends OutboundTaskBaseClass{
 	 
 	
 	private DialerLoginPage dialerPage;
@@ -636,6 +637,9 @@ public class CallMeTask extends BaseClass{
 		}
 			
 		if (!TestCaseTracker.isExecuted("callMeRescheduleWrongNoSubmit")) {
+			callMeRescheduleWrongNoSubmit(manager);
+		}else 
+		{
 			callMeRescheduleWrongNoSubmit(manager);
 		}
 		 				
@@ -3807,7 +3811,7 @@ public class CallMeTask extends BaseClass{
 					softAssert.assertAll();
 				});
 
-				// TestCaseTracker.markAsExecuted("callMeRescheduleWrongNoSubmit");
+				 TestCaseTracker.markAsExecuted("callMeRescheduleWrongNoSubmit");
 			} else {
 				System.out.println("Task type is not Call Me.");
 				manager.executeTask();

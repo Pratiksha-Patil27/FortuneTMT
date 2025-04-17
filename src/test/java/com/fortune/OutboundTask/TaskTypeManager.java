@@ -6,14 +6,14 @@ import org.openqa.selenium.WebDriver;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.fortune.base.BaseClass;
+import com.fortune.base.OutboundTaskBaseClass;
 import com.fortune.pageobjects.OutBoundTaskPage;
 import com.fortune.pageobjects.OutboundTelecallingPage;
 
 
 
 
-public class TaskTypeManager extends BaseClass {
+public class TaskTypeManager extends OutboundTaskBaseClass {
 
 	private OutBoundTaskPage outboundTaskPage;
 	private OutboundTelecallingPage telePage;
@@ -91,10 +91,10 @@ public class TaskTypeManager extends BaseClass {
 				}
 				try {
 					if (outboundTaskPage.verifyOutboundTaskPageDisplay())
+						System.out.println("In try block on TaskTypeManager Class");
 						telePage = outboundTaskPage.clickOnDialNextButton();
 				}catch (Exception e) {
-					e.printStackTrace();
-					break;
+					System.out.println("In Catch block on TaskTypeManager Class");
 				}
 			}
 			if (status) {
@@ -103,6 +103,7 @@ public class TaskTypeManager extends BaseClass {
 			if (taskCompleted) {
 				System.out.println("OutOf While Loop.");
 				logTestCounts();
+			
 			}
 
 		}

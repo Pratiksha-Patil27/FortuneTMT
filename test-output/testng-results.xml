@@ -1,77 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-15T18:18:10 IST" name="Suite" finished-at="2025-04-15T18:18:26 IST" duration-ms="15232">
+  <suite started-at="2025-04-17T10:43:21 IST" name="Suite" finished-at="2025-04-17T10:44:01 IST" duration-ms="40496">
     <groups>
     </groups>
-    <test started-at="2025-04-15T18:18:10 IST" name="Outbound Task" finished-at="2025-04-15T18:18:26 IST" duration-ms="15232">
-      <class name="com.fortune.OutboundTask.OutBoundTaskTest">
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.fortune.OutboundTask.OutBoundTaskTest@409bf450]" started-at="2025-04-15T18:17:21 IST" name="generateReport" finished-at="2025-04-15T18:17:22 IST" duration-ms="548" status="PASS">
+    <test started-at="2025-04-17T10:43:21 IST" name="LoginTest" finished-at="2025-04-17T10:44:01 IST" duration-ms="40496">
+      <class name="com.fortune.testcases.LoginTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:21 IST" name="launch" finished-at="2025-04-17T10:43:30 IST" duration-ms="9179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- generateReport -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:com.fortune.OutboundTask.OutBoundTaskTest@409bf450]" started-at="2025-04-15T18:17:22 IST" name="Login" finished-at="2025-04-15T18:18:10 IST" depends-on-methods="com.fortune.base.BaseClass.generateReport" duration-ms="48584" status="PASS">
+        </test-method> <!-- launch -->
+        <test-method signature="loginByInvalidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:30 IST" name="loginByInvalidCredentials" data-provider="invalidloginData" finished-at="2025-04-17T10:43:33 IST" duration-ms="3124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="openOutBoundTaskMenu()[pri:0, instance:com.fortune.OutboundTask.OutBoundTaskTest@409bf450]" started-at="2025-04-15T18:18:10 IST" name="openOutBoundTaskMenu" finished-at="2025-04-15T18:18:25 IST" duration-ms="15057" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        </test-method> <!-- loginByInvalidCredentials -->
+        <test-method signature="loginByInvalidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:33 IST" name="loginByInvalidCredentials" data-provider="invalidloginData" finished-at="2025-04-17T10:43:35 IST" duration-ms="1652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tELE@6001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByInvalidCredentials -->
+        <test-method signature="loginByInvalidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:35 IST" name="loginByInvalidCredentials" data-provider="invalidloginData" finished-at="2025-04-17T10:43:37 IST" duration-ms="1580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByInvalidCredentials -->
+        <test-method signature="loginByBlankCredentials(java.lang.String,java.lang.String)[pri:2, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:37 IST" name="loginByBlankCredentials" data-provider="blankloginData" finished-at="2025-04-17T10:43:38 IST" duration-ms="1008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tELE@6001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByBlankCredentials -->
+        <test-method signature="loginByBlankCredentials(java.lang.String,java.lang.String)[pri:2, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:38 IST" name="loginByBlankCredentials" data-provider="blankloginData" finished-at="2025-04-17T10:43:39 IST" duration-ms="1019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByBlankCredentials -->
+        <test-method signature="loginByBlankCredentials(java.lang.String,java.lang.String)[pri:2, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:39 IST" name="loginByBlankCredentials" data-provider="blankloginData" finished-at="2025-04-17T10:43:39 IST" duration-ms="899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByBlankCredentials -->
+        <test-method signature="loginByValidCredentials(java.lang.String,java.lang.String)[pri:3, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:43:39 IST" name="loginByValidCredentials" data-provider="validloginData" finished-at="2025-04-17T10:44:00 IST" duration-ms="20983" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tELE@60011]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=135.0.7049.85)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a35f302ce5c3824ae5f2cfb01c7cbae3, findElement {value=//div[@id="sidebar-menu"]/ul/li/a/i, using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59432/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a35f302ce5c3824ae5f2cfb01c7cbae3]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[@id='side-menu']' (tried for 20 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=135.0.7049.85)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a35f302ce5c3824ae5f2cfb01c7cbae3, findElement {value=//div[@id="sidebar-menu"]/ul/li/a/i, using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59432/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a35f302ce5c3824ae5f2cfb01c7cbae3
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.fortune.pageobjects.BasePage.click(BasePage.java:29)
-at com.fortune.pageobjects.DashboardPage.clickOnCustomerEngagementIcon(DashboardPage.java:43)
-at com.fortune.OutboundTask.OutBoundTaskTest.openOutBoundTaskMenu(OutBoundTaskTest.java:51)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[@id='side-menu']' (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.fortune.pageobjects.BasePage.waitVisibilityOf(BasePage.java:67)
+at com.fortune.pageobjects.DashboardPage.verifySuccessfullyLandingOnDashboard(DashboardPage.java:29)
+at com.fortune.testcases.LoginTest.loginByValidCredentials(LoginTest.java:55)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
@@ -88,39 +157,15 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openOutBoundTaskMenu -->
-        <test-method is-config="true" signature="startTestMethod(org.testng.ITestResult)[pri:0, instance:com.fortune.OutboundTask.OutBoundTaskTest@409bf450]" started-at="2025-04-15T18:18:26 IST" name="startTestMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1744721306041" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTestMethod -->
-        <test-method signature="executeTelecallingTestCases()[pri:0, instance:com.fortune.OutboundTask.OutBoundTaskTest@409bf450]" started-at="2025-04-15T18:18:26 IST" name="executeTelecallingTestCases" finished-at="2025-04-15T18:18:26 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=135.0.7049.85)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='side-menu']"}
+  (Session info: chrome=135.0.7049.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a35f302ce5c3824ae5f2cfb01c7cbae3, findElement {value=//div[@id="sidebar-menu"]/ul/li/a/i, using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59432/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a35f302ce5c3824ae5f2cfb01c7cbae3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=135.0.7049.85)
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a35f302ce5c3824ae5f2cfb01c7cbae3, findElement {value=//div[@id="sidebar-menu"]/ul/li/a/i, using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59432}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59432/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a35f302ce5c3824ae5f2cfb01c7cbae3
+Command: [e3cd1b7b4703b802ec2098a192ff0ff7, findElement {using=xpath, value=//ul[@id='side-menu']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53605/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3cd1b7b4703b802ec2098a192ff0ff7
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -137,55 +182,23 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
 at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.fortune.pageobjects.BasePage.click(BasePage.java:29)
-at com.fortune.pageobjects.DashboardPage.clickOnCustomerEngagementIcon(DashboardPage.java:43)
-at com.fortune.OutboundTask.OutBoundTaskTest.openOutBoundTaskMenu(OutBoundTaskTest.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- executeTelecallingTestCases -->
-        <test-method is-config="true" signature="endTestMethod(org.testng.ITestResult)[pri:0, instance:com.fortune.OutboundTask.OutBoundTaskTest@409bf450]" started-at="2025-04-15T18:18:26 IST" name="endTestMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1744721306072" status="SKIP">
+        </test-method> <!-- loginByValidCredentials -->
+        <test-method is-config="true" signature="closed()[pri:0, instance:com.fortune.testcases.LoginTest@58e1d9d]" started-at="2025-04-17T10:44:01 IST" name="closed" finished-at="2025-04-17T10:44:01 IST" duration-ms="642" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endTestMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortune.OutboundTask.OutBoundTaskTest@409bf450]" started-at="2025-04-15T18:18:26 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1744721306234" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.fortune.OutboundTask.OutBoundTaskTest -->
-    </test> <!-- Outbound Task -->
+        </test-method> <!-- closed -->
+      </class> <!-- com.fortune.testcases.LoginTest -->
+    </test> <!-- LoginTest -->
   </suite> <!-- Suite -->
 </testng-results>
