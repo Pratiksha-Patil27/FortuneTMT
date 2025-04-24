@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="67.221" tests="5" errors="0" skipped="4" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,659.895" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\PRATIK~1.PAT\AppData\Local\Temp\surefire2641712010509726931\surefirebooter4913247822554429547.jar C:\Users\pratiksha.patil\AppData\Local\Temp\surefire2641712010509726931 2025-04-16T11-40-57_881-jvmRun1 surefire7144744898443449431tmp surefire_09092980568741990829tmp"/>
+    <property name="sun.java.command" value="C:\Users\PRATIK~1.PAT\AppData\Local\Temp\surefire15091024808926864019\surefirebooter13449516985614546985.jar C:\Users\pratiksha.patil\AppData\Local\Temp\surefire15091024808926864019 2025-04-24T17-10-56_816-jvmRun1 surefire12364274924640750396tmp surefire_017723393322093845474tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pratiksha.patil\eclipse-workspace\FortuneTMT\target\test-classes;C:\Users\pratiksha.patil\eclipse-workspace\FortuneTMT\target\classes;C:\Users\pratiksha.patil\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pratiksha.patil\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\junit\vintage\junit-vintage-engine\5.7.2\junit-vintage-engine-5.7.2.jar;C:\Users\pratiksha.patil\.m2\repository\org\junit\platform\junit-platform-engine\1.11.0\junit-platform-engine-1.11.0.jar;C:\Users\pratiksha.patil\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\pratiksha.patil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\pratiksha.patil\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\pratiksha.patil\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pratiksha.patil\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\pratiksha.patil\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pratiksha.patil\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\pratiksha.patil\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pratiksha.patil\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\pratiksha.patil\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\pratiksha.patil\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\pratiksha.patil\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\pratiksha.patil\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\pratiksha.patil\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\pratiksha.patil\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\pratiksha.patil\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\pratiksha.patil\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\pratiksha.patil\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\pratiksha.patil\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\pratiksha.patil\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pratiksha.patil\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\pratiksha.patil\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\PRATIK~1.PAT\AppData\Local\Temp\surefire2641712010509726931\surefirebooter4913247822554429547.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\PRATIK~1.PAT\AppData\Local\Temp\surefire15091024808926864019\surefirebooter13449516985614546985.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -59,42 +59,473 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="openOutBoundTaskMenu" classname="com.fortune.OutboundTask.OutBoundTaskTest" time="66.845">
-    <failure message="invalid session id: session deleted as the browser has closed the connection&#10;from disconnected: not connected to DevTools&#10;  (Session info: chrome=135.0.7049.86)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3f8a0d2c88d9145e076cc0f7364ac193, findElement {using=xpath, value=//div[@id=&quot;sidebar-menu&quot;]/ul/li/a/i}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59701/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f8a0d2c88d9145e076cc0f7364ac193" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
-invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
-  (Session info: chrome=135.0.7049.86)
+  <testcase name="executeTelecallingTestCases" classname="com.fortune.OutboundTask.OutBoundTaskTest" time="1,592.781">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=135.0.7049.96)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7076792a7b91fd64e8e3a09fbcdff38e, findElement {value=//div[@class=&quot;page-content&quot;]/div/header/div/div[2]/div/button[1], using=xpath}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7076792a7b91fd64e8e3a09fbcdff38e" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.96)
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f8a0d2c88d9145e076cc0f7364ac193, findElement {using=xpath, value=//div[@id="sidebar-menu"]/ul/li/a/i}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59701/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f8a0d2c88d9145e076cc0f7364ac193
-	at com.fortune.OutboundTask.OutBoundTaskTest.openOutBoundTaskMenu(OutBoundTaskTest.java:51)
+Command: [7076792a7b91fd64e8e3a09fbcdff38e, findElement {value=//div[@class="page-content"]/div/header/div/div[2]/div/button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7076792a7b91fd64e8e3a09fbcdff38e
+	at com.fortune.OutboundTask.OutBoundTaskTest.executeTelecallingTestCases(OutBoundTaskTest.java:64)
 </failure>
     <system-out><![CDATA[Campaign Login
 Successfully Landing On Compaign Login Page
 Another live agent session was open using your user ID. It has been disabled. Click OK to continue to the agent screen.
 OK -->
 Successfully navogate to VICI Dailer...
+Calls are Scheduled...
+Manager Class
+Task Type : Call Me - Customer Request for TC to Call.
+Number of test cases in class : CallMeTask: 128
+Add product
+10MM-FE550D Product is selected
+Add product
+12MM-FE550 Product is selected
+Add Claim Points :180
+Add Claim Qty :6
+points * Qty :1080.0
+decimalClaimedPoints :1.08
+ Expected Total Points  :1
+Actual Total Points :1
+Add Claim Points :180
+Add Claim Qty :5
+points * Qty :900.0
+decimalClaimedPoints :0.9
+ Expected Total Points  :1
+Actual Total Points :1
+generatedClaimID :C25737
+Reward Qty : 1
+Reward Points : 20
+Expected Redemption Points : 20
+Actual Redemption Points : 20
+ Old Locked Points : 80
+ Old Reedemable Points : 3154
+ Old Total Points : 3234
+ILP2504000030
+Submitted Redemption Number : ILP2504000030
+Added Redemption number in History : ILP2504000030
+Selected Status Dropdown option : Pending
+Redemption Status In Redemption History : Pending
+Expected Locked Points : 100
+ New Locked Points : 100
+Expected Reedemable Points : 3134
+New Reedemable Points : 3134
+Expected Total Points : 3234
+New Total Points : 3234
+Expected Closing Points : 3234
+Expected Lock Points : 100
+Expected Redeemable Points : 3134
+backButtonTaskNo :TS25906
+Dashboard Task No :TS25906
+Back Button taskStatus Pending
+Dashboard Task status CallMe-BackButton : Pending
+Call Connected
+Call Connected :Call Connected
+Loader Msg : Call Disconnecting
+Claim Status : Pending
+Claim Status : Pending
+ Expected Pending Claim Count : 1
+stringPendingClaims :Total Pending Claims : 1
+Actual Pending Claim Count : 1
+Claim Verification Points :180
+Claim Verification Claimed Qty  :5
+points * Qty :900.0
+decimalClaimedPoints :0.9
+Claim Verification Expected Claimed Points  :1
+0.9
+Claim Verification Actual Claimed Points  :1
+Claim Verification Points :180
+Claim Verification Claimed Qty  :6
+points * Qty :1080.0
+decimalClaimedPoints :1.08
+Claim Verification Expected Claimed Points  :1
+1.08
+Claim Verification Actual Claimed Points  :1
+Claim Verification Claimed Qty  :5
+Enter Max Verify Qty : 6
+Claim Verification Claimed Qty  :6
+Enter Max Verify Qty : 7
+verify Qty  : 0
+verify Points : 0
+verify Qty  : 0
+verify Points : 0
+expectedClaimIdAndTaskNo : C25737(TS25909)
+ClaimVerificationClaimIdAndTaskNo : C25737(TS25909)
+actualClaimIdAndTaskNo : C25737(TS25909)
+expectedClaimDate : 24-Apr-2025
+actualClaimDate : 24-Apr-2025
+expectedCustomerName : Balaji
+actualCustomerName : Balaji
+actualClaimStatus : Pending
+expectedInfluencerName : Kiran Rajan
+actualInfluencerName : Kiran Rajan
+expectedInfluencerMobileNo : 8530235910
+actualInfluencerMobileNo : 8530235910
+actualCount : 2
+expectedCount : 2
+stringPendingClaims :Total Pending Claims : 1
+1
+StaleElementReferenceException: Retrying to locate the element...
+stringPendingClaims :Total Pending Claims : 1
+1
+Selected Claim Status is Approve.
+Claim Verification Points :180
+Claim Verification Claimed Qty  :5
+points * Qty :900.0
+decimalClaimedPoints :0.9
+Expected Claimed Points : 1
+Verify actual Claim Points : 1
+Selected Reason Value : Site/Product Picture not clear
+Claim Verification Points :180
+Claim Verification Claimed Qty  :0
+points * Qty :0.0
+decimalClaimedPoints :0.0
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+stringPendingClaims :Total Pending Claims : 0
+0
+Records not available for Claim verification
+stringPendingClaims :Total Pending Claims : 0
+0
+Records not available for Claim verification
+CallMe Task No For Close Task By Submit & Break Button  : TS25906
+Dashboard Task No :TS25906
+Dashboard Task Status CallMe-Close Task :Closed
+Task type is not  Call Me
+Manager Class
+Task Type : 6001
+on dashboard
+Calls are Scheduled...
+Task Type : Call Me - Customer Request for TC to Call.
+Number of test cases in class : CallMeTask: 128
+stringPendingClaims :Total Pending Claims : 9
+9
+Claim Verification Claimed Qty  :1
+Enter Qty Less Than Claimed Qty : 0
+Claim Verification Points :180
+Claim Verification Claimed Qty  :0
+points * Qty :0.0
+decimalClaimedPoints :0.0
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+stringPendingClaims :Total Pending Claims : 8
+8
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1
+points * Qty :180.0
+decimalClaimedPoints :0.18
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1
+points * Qty :180.0
+decimalClaimedPoints :0.18
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1
+points * Qty :180.0
+decimalClaimedPoints :0.18
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1
+points * Qty :180.0
+decimalClaimedPoints :0.18
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1
+points * Qty :180.0
+decimalClaimedPoints :0.18
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1000
+points * Qty :180000.0
+decimalClaimedPoints :180.0
+Expected Claimed Points : 180
+Verify actual Claim Points : 180
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1
+points * Qty :180.0
+decimalClaimedPoints :0.18
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Claim Verification Points :180
+Claim Verification Claimed Qty  :1
+points * Qty :180.0
+decimalClaimedPoints :0.18
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Task No-Call Me- Reschedule-Not Interested -Submit & break button : TS25905
+Not interested
+Dashboard Task No :TS25905
+Dashboard Task status Call Me -Rechedule- Not Interested : TS25905 - Closed
+Task type is not Call Me
+Manager Class
+Task Type : 6001
+on dashboard
+Calls are Scheduled...
+Task Type : Influencer Claim Verification
+Number of test cases in class : ClaimVerificationTask: 128
+Add product
+10MM-FE550D Product is selected
+Add product
+12MM-FE550 Product is selected
+Add Claim Points :180
+Add Claim Qty :6
+points * Qty :1080.0
+decimalClaimedPoints :1.08
+ Expected Total Points  :1
+Actual Total Points :1
+Add Claim Points :180
+Add Claim Qty :5
+points * Qty :900.0
+decimalClaimedPoints :0.9
+ Expected Total Points  :1
+Actual Total Points :1
+generatedClaimID :C25738
+Reward Qty : 1
+Reward Points : 20
+Expected Redemption Points : 20
+Actual Redemption Points : 20
+ Old Locked Points : 0
+ Old Reedemable Points : 1000
+ Old Total Points : 1000
+ILP2504000031
+Submitted Redemption Number : ILP2504000031
+Added Redemption number in History : ILP2504000031
+Selected Status Dropdown option : Pending
+Redemption Status In Redemption History : Pending
+Expected Locked Points : 20
+ New Locked Points : 20
+Expected Reedemable Points : 980
+New Reedemable Points : 980
+Expected Total Points : 1000
+New Total Points : 1000
+Expected Closing Points : 1000
+Expected Lock Points : 20
+Expected Redeemable Points : 980
+backButtonTaskNo :TS25863
+Dashboard Task No :TS25863
+Back Button taskStatus Pending
+Dashboard Task status for Back Button : Pending
+Call Connected
+Call Connected :Call Connected
+Loader Msg : Call Disposed
+Claim Status : Pending
+Claim Status : Pending
+ Expected Pending Claim Count : 5
+stringPendingClaims :Total Pending Claims : 5
+Actual Pending Claim Count : 5
+Claim Verification Points :180
+Claim Verification Claimed Qty  :5
+points * Qty :900.0
+decimalClaimedPoints :0.9
+Claim Verification Expected Claimed Points  :1
+0.9
+Claim Verification Actual Claimed Points  :1
+Claim Verification Points :180
+Claim Verification Claimed Qty  :6
+points * Qty :1080.0
+decimalClaimedPoints :1.08
+Claim Verification Expected Claimed Points  :1
+1.08
+Claim Verification Actual Claimed Points  :1
+Claim Verification Claimed Qty  :5
+Enter Max Verify Qty : 6
+Claim Verification Claimed Qty  :6
+Enter Max Verify Qty : 7
+verify Qty  : 0
+verify Points : 0
+verify Qty  : 0
+verify Points : 0
+expectedClaimIdAndTaskNo : C25738(TS25910)
+ClaimVerificationClaimIdAndTaskNo : C25738(TS25910)
+actualClaimIdAndTaskNo : C25738(TS25910)
+expectedClaimDate : 24-Apr-2025
+actualClaimDate : 24-Apr-2025
+expectedCustomerName : Balaji
+actualCustomerName : Balaji
+actualClaimStatus : Pending
+actualClaimStatus : Pending
+actualClaimStatus : Pending
+actualClaimStatus : Pending
+actualClaimStatus : Pending
+expectedInfluencerName : Nilesh Sharma
+actualInfluencerName : Nilesh Sharma
+expectedInfluencerMobileNo : 2344567654
+actualInfluencerMobileNo : 2344567654
+actualCount : 2
+expectedCount : 2
+stringPendingClaims :Total Pending Claims : 5
+5
+Selected Reason Value : Site/Product Picture not clear
+Claim Verification Points :180
+Claim Verification Claimed Qty  :0
+points * Qty :0.0
+decimalClaimedPoints :0.0
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+Selected Reason Value : Site/Product Picture not clear
+Claim Verification Points :180
+Claim Verification Claimed Qty  :0
+points * Qty :0.0
+decimalClaimedPoints :0.0
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+stringPendingClaims :Total Pending Claims : 4
+4
+Selected Claim Status is Approve.
+Claim Verification Points :180
+Claim Verification Claimed Qty  :15
+points * Qty :2700.0
+decimalClaimedPoints :2.7
+Expected Claimed Points : 3
+Verify actual Claim Points : 3
+Selected Reason Value : Site/Product Picture not clear
+Claim Verification Points :180
+Claim Verification Claimed Qty  :0
+points * Qty :0.0
+decimalClaimedPoints :0.0
+Expected Claimed Points : 0
+Verify actual Claim Points : 0
+stringPendingClaims :Total Pending Claims : 3
+3
+Claim Verification Claimed Qty  :7
+Enter Qty Less Than Claimed Qty : 6
+StaleElementReferenceException: Retrying to locate the element...
+Claim Verification Points :180
+Claim Verification Claimed Qty  :6
+points * Qty :1080.0
+decimalClaimedPoints :1.08
+Expected Claimed Points : 1
+Verify actual Claim Points : 1
+Claim Verification Claimed Qty  :9
+Enter Qty Less Than Claimed Qty : 8
+Claim Verification Points :180
+Claim Verification Claimed Qty  :8
+points * Qty :1440.0
+decimalClaimedPoints :1.44
+Expected Claimed Points : 1
+Verify actual Claim Points : 1
+stringPendingClaims :Total Pending Claims : 2
+2
+Claim Verification Points :180
+Claim Verification Claimed Qty  :5
+points * Qty :900.0
+decimalClaimedPoints :0.9
+Expected Claimed Points : 1
+Verify actual Claim Points : 1
+Claim Verification Points :180
+Claim Verification Claimed Qty  :10
+points * Qty :1800.0
+decimalClaimedPoints :1.8
+Expected Claimed Points : 2
+Verify actual Claim Points : 2
+Claim Verification Points :180
+Claim Verification Claimed Qty  :6
+points * Qty :1080.0
+decimalClaimedPoints :1.08
+Expected Claimed Points : 1
+Verify actual Claim Points : 1
+Claim Verification Points :180
+Claim Verification Claimed Qty  :20
+points * Qty :3600.0
+decimalClaimedPoints :3.6
+Expected Claimed Points : 4
+Verify actual Claim Points : 4
+Task No For Close Task By Submit & Break Button  : TS25863
+Dashboard Task No :TS25863
+Dashboard Task Status Close Task :Closed
+Task type is not Influencer Claim Verification.
+Manager Class
+Task Type : 6001
+on dashboard
+Calls are Scheduled...
+Task Type : Influencer Claim Verification
+Number of test cases in class : ClaimVerificationTask: 128
+Task No. - Reschedule-Not Interested -Submit & break button : TS25888
+Not interested
+Dashboard Task No :TS25888
+Dashboard Task status - Rechedule- Not Interested : TS25888 - Closed
+Task type is not Influencer Claim Verification.
+Manager Class
+Task Type : 6001
+on dashboard
+Calls are Scheduled...
+Task Type : Influencer Claim Verification
+Number of test cases in class : ClaimVerificationTask: 128
+Task no. of -Reschedule-Not Interested-Submit button : TS24368
+Not interested
+Task type is not Influencer Claim Verification.
+Manager Class
+Task Type : 6001
+on dashboard
+Calls are Not scheduled, Please schedule calls...!
+Call Status: false : Calls are not Scheduled
+OutOf While Loop.
+In Catch block on TaskTypeManager Class
+In Catch block on TaskTypeManager Class
+In Catch block on TaskTypeManager Class
+In Catch block on TaskTypeManager Class
+In Catch block on TaskTypeManager Class
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Apr 16, 2025 11:41:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Apr 24, 2025 5:11:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 131; Please update to a Selenium version that supports CDP version 135
+Exception during test execution: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7076792a7b91fd64e8e3a09fbcdff38e, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7076792a7b91fd64e8e3a09fbcdff38e
+Exception during test execution: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7076792a7b91fd64e8e3a09fbcdff38e, findElement {value=//div[@class="page-content"]/div/header/div/div[2]/div/button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7076792a7b91fd64e8e3a09fbcdff38e
+Exception during test execution: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7076792a7b91fd64e8e3a09fbcdff38e, findElement {value=//div[@class="page-content"]/div/header/div/div[2]/div/button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7076792a7b91fd64e8e3a09fbcdff38e
+Exception during test execution: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7076792a7b91fd64e8e3a09fbcdff38e, findElement {value=//div[@class="page-content"]/div/header/div/div[2]/div/button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7076792a7b91fd64e8e3a09fbcdff38e
+Exception during test execution: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=135.0.7049.96)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7076792a7b91fd64e8e3a09fbcdff38e, findElement {value=//div[@class="page-content"]/div/header/div/div[2]/div/button[1], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7076792a7b91fd64e8e3a09fbcdff38e
 ]]></system-err>
-  </testcase>
-  <testcase name="startTestMethod" classname="com.fortune.OutboundTask.OutBoundTaskTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="executeTelecallingTestCases" classname="com.fortune.OutboundTask.OutBoundTaskTest" time="0">
-    <skipped message="invalid session id: session deleted as the browser has closed the connection&#10;from disconnected: not connected to DevTools&#10;  (Session info: chrome=135.0.7049.86)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3f8a0d2c88d9145e076cc0f7364ac193, findElement {using=xpath, value=//div[@id=&quot;sidebar-menu&quot;]/ul/li/a/i}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.86, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\PRATIK~1.PAT\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59701}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59701/devtoo..., se:cdpVersion: 135.0.7049.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3f8a0d2c88d9145e076cc0f7364ac193"/>
-  </testcase>
-  <testcase name="endTestMethod" classname="com.fortune.OutboundTask.OutBoundTaskTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="com.fortune.OutboundTask.OutBoundTaskTest" time="0">
-    <skipped/>
   </testcase>
 </testsuite>

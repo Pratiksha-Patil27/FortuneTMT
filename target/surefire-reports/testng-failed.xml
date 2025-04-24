@@ -5,13 +5,13 @@
     <classes>
       <class name="com.fortune.OutboundTask.OutBoundTaskTest">
         <methods>
-          <include name="startTestMethod"/>
+          <include name="tearDown"/>
           <include name="endTestMethod"/>
+          <include name="startTestMethod"/>
           <include name="Login"/>
           <include name="openOutBoundTaskMenu"/>
-          <include name="generateReport"/>
           <include name="executeTelecallingTestCases"/>
-          <include name="tearDown"/>
+          <include name="generateReport"/>
         </methods>
       </class> <!-- com.fortune.OutboundTask.OutBoundTaskTest -->
     </classes>

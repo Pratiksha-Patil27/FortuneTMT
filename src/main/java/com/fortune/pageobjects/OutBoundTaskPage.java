@@ -75,6 +75,7 @@ public class OutBoundTaskPage extends BasePage {
 
 	public WebElement nextDialText()
 	{
+		waitVisibilityOf(nextDialText);
 		return nextDialText;
 	}
 	
