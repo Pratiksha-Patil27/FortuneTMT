@@ -511,8 +511,7 @@ public class IncomingMissCallTask extends OutboundTaskBaseClass{
 			if (!TestCaseTracker.isExecuted("missCallVerifyClaimedPointsOfClaimVerification")) {
 				missCallVerifyClaimedPointsOfClaimVerification(manager);
 			}
-			
-			
+					
 			if (!TestCaseTracker.isExecuted("missCallVerifyQtyFieldOfClaimVerificationByEnterMaxQty")) {
 				missCallVerifyQtyFieldOfClaimVerificationByEnterMaxQty(manager);
 			}
@@ -1461,9 +1460,15 @@ public class IncomingMissCallTask extends OutboundTaskBaseClass{
 		telePage.enterEscalationRemark("Escalation Added");
 		telePage.clickOnAddEscalationMenuSubmitBtn();
 		softAssert.assertTrue(telePage.verifyAddEscalationSuccessPopUpDisplay(),"Escalation Not Getting Submit");
+		try
+		{
 		telePage.clickOnAddEscalationSuccessPopUpOkBtn();
+		}catch(Exception e)
+		{
+			telePage.clickOnAddEscalationMenuCrossIcon();
+		}
 	    softAssert.assertAll();
-        });	
+        });
 		TestCaseTracker.markAsExecuted("missCallAddEscalation");
 		
 	}
@@ -1735,7 +1740,7 @@ public class IncomingMissCallTask extends OutboundTaskBaseClass{
 		telePage = new OutboundTelecallingPage(driver);
         //Get Count of rows
 		int totalProductCount=telePage.getCountOfTotalRowsOnAddClaimPage();
-		for(int i=1; i<totalProductCount; i++)
+		for(int i=1; i<=totalProductCount; i++)
 		{
 			int points=telePage.getPointsValueOnAddClaim(i);
 			System.out.println("Add Claim Points :" + points);
@@ -1773,12 +1778,25 @@ public class IncomingMissCallTask extends OutboundTaskBaseClass{
 		SoftAssert softAssert = new SoftAssert();
 		telePage = new OutboundTelecallingPage(driver);
 		telePage.clickOnAddClaimSubmitBtn();
+		try
+		{
 		generatedClaimID =telePage.getClaimIDOfAddedClaim();
 		System.out.println("generatedClaimID :"+ generatedClaimID);
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 		softAssert.assertTrue(telePage.verifyAddedClaimSuccessDialogBoxDisplay(),"Claim Not getting Submit");
+		try
+		{
 		telePage.clickOnAddClaimSuccessDialogOkBtn();
+		}catch(Exception e)
+		{
+			telePage.clickOnAddClaimCrossIcon();
+		}
 		softAssert.assertAll();
         });
+        
 		TestCaseTracker.markAsExecuted("missCallSubmitClaim");
 
 	}
@@ -2046,8 +2064,15 @@ public class IncomingMissCallTask extends OutboundTaskBaseClass{
 	    System.out.println("Submitted Redemption Number : "+ addedRedemptionNumber);
         softAssert.assertTrue(telePage.verifyAddRedemptionSuccessPopUpDisplay(),"Redemption Not getting submit.");
         softAssert.assertAll();
+        
+        });	
+        try
+        {
         telePage.clickOnAddRedemptionSuccessPopUpOkBtn();
-        });		
+        }catch(Exception e)
+        {
+        	telePage.clickOnAddRedemptionCrossIcon();
+        }
         TestCaseTracker.markAsExecuted("missCallSubmitRedemption");
 		
 		

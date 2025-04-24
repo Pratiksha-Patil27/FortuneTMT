@@ -13,7 +13,7 @@ public class ExtentReporterNG {
 				//Give Title name
 				reporter.config().setDocumentTitle("FortuneTMT");
 				//Give report name
-				reporter.config().setReportName("FortuneTMT OutBound Task");
+				reporter.config().setReportName("FortuneTMT Report");
 		      //Creat object ExtentReports class - it a main class- Its Responsible to drive all reporting test execution
 				ExtentReports extent =new ExtentReports();
 		        extent = new ExtentReports();

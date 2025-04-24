@@ -455,7 +455,6 @@ public class ClaimVerificationTask extends OutboundTaskBaseClass{
 				claimTaskVerifyAchivementsMenuCrossIconClickable(manager);
 			}
 
-
 			if (!TestCaseTracker.isExecuted("claimTaskVerifyMilestoneCatalogMenuClickable")) {
 				claimTaskVerifyMilestoneCatalogMenuClickable(manager);
 			}
@@ -463,8 +462,7 @@ public class ClaimVerificationTask extends OutboundTaskBaseClass{
 			if (!TestCaseTracker.isExecuted("claimTaskVerifyMilestoneCatalogMenuCrossIconClickable")) {
 				claimTaskVerifyMilestoneCatalogMenuCrossIconClickable(manager);
 			}
-
-			
+		
 			if (!TestCaseTracker.isExecuted("claimTaskVerifyRedial")) {
 				claimTaskVerifyRedial(manager);
 			}
@@ -1463,9 +1461,16 @@ public class ClaimVerificationTask extends OutboundTaskBaseClass{
 		telePage.enterEscalationRemark("Escalation Added");
 		telePage.clickOnAddEscalationMenuSubmitBtn();
 		softAssert.assertTrue(telePage.verifyAddEscalationSuccessPopUpDisplay(),"Escalation Not Getting Submit");
+		try
+		{
 		telePage.clickOnAddEscalationSuccessPopUpOkBtn();
+		}catch(Exception e)
+		{
+			telePage.clickOnAddEscalationMenuCrossIcon();
+		}
 	    softAssert.assertAll();
         });	
+        
 		TestCaseTracker.markAsExecuted("claimTaskAddEscalation");
 		
 	}
@@ -1724,8 +1729,7 @@ public class ClaimVerificationTask extends OutboundTaskBaseClass{
 		telePage = new OutboundTelecallingPage(driver);
         //Get Count of rows
 		int totalProductCount=telePage.getCountOfTotalRowsOnAddClaimPage();
-		System.out.println("Added Product Row Count : "+ totalProductCount);
-		for(int i=1; i<totalProductCount; i++)
+		for(int i=1; i<=totalProductCount; i++)
 		{
 			int points=telePage.getPointsValueOnAddClaim(i);
 			System.out.println("Add Claim Points :" + points);
@@ -1763,12 +1767,25 @@ public class ClaimVerificationTask extends OutboundTaskBaseClass{
 		SoftAssert softAssert = new SoftAssert();
 		telePage = new OutboundTelecallingPage(driver);
 		telePage.clickOnAddClaimSubmitBtn();
+		try
+		{
 		generatedClaimID =telePage.getClaimIDOfAddedClaim();
 		System.out.println("generatedClaimID :"+ generatedClaimID);
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 		softAssert.assertTrue(telePage.verifyAddedClaimSuccessDialogBoxDisplay(),"Claim Not getting Submit");
+		try
+		{
 		telePage.clickOnAddClaimSuccessDialogOkBtn();
+		}catch(Exception e)
+		{
+			telePage.clickOnAddClaimCrossIcon();
+		}
 		softAssert.assertAll();
         });
+        
 		TestCaseTracker.markAsExecuted("claimTaskSubmitClaim");
 
 	}
@@ -2028,8 +2045,15 @@ public class ClaimVerificationTask extends OutboundTaskBaseClass{
 	    System.out.println("Submitted Redemption Number : "+ addedRedemptionNumber);
         softAssert.assertTrue(telePage.verifyAddRedemptionSuccessPopUpDisplay(),"Redemption Not getting submit.");
         softAssert.assertAll();
+        
+        });	
+        try
+        {
         telePage.clickOnAddRedemptionSuccessPopUpOkBtn();
-        });		
+        }catch(Exception e)
+        {
+        	 telePage.clickOnAddRedemptionCrossIcon();
+        }
         TestCaseTracker.markAsExecuted("claimTaskSubmitRedemption");	
 	}
 	

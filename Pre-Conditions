@@ -1,0 +1,31 @@
+1.Call Me Task -->
+      -Schedule Task Count -10
+      -Add Redemption Points to each Influencer.
+      -Add Redemption data in Resource file [Code & Qty].
+      -Add Customer Claim Details In Resource File [eg. name, Inv no. date ].
+      -Add Claim Products In Resource file.
+      -Add More than 4 claim manually, and each claim more than 1 product should add.
+      
+      
+2.Claim Verification Task -->
+      -Schedule Task Count -9
+      -Add Redemption Points to each Influencer.
+      -Add Redemption data in Resource file [Code & Qty].
+      -Add Customer Claim Details In Resource File [eg. name, Inv no. date ].
+      -Add Claim Products In Resource file. 
+      -Add More than 4 claim manually, and each claim more than 1 product should add.
+ 
+3. Incoming Miss Call Task -->
+      -Schedule Task Count -9
+      -Add Redemption Points to each Influencer.
+      -Add Redemption data in Resource file [Code & Qty].
+      -Add Customer Claim Details In Resource File [eg. name, Inv no. date ].
+      -Add Claim Products In Resource file. 
+      -Add More than 4 claim manually, and each claim more than 1 product should add. 
+      
+      
+4.Welcome Call -->
+      -Schedule Task Count -9
+      -Add Customer Claim Details In Resource File [eg. name, Inv no. date ].
+      -Add Claim Products In Resource file.  
+             
